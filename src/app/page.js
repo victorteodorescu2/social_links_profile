@@ -3,7 +3,7 @@ import Button from "@/auxiliary/components/button";
 
 export default function Home() {
   return (
-    <article className="bg-design-grey-800 flex flex-col gap-[24px] p-[40px] rounded-[12px] w-full max-w-[384px] min-w-fit items-center">
+    <section className="bg-design-grey-800 flex flex-col gap-[24px] p-[40px] rounded-[12px] w-full max-w-[384px] min-w-fit items-center">
       <Image
         className="rounded-full"
         alt=""
@@ -25,6 +25,6 @@ export default function Home() {
       <Button text="LinkedIn" href="https://www.linkedin.com/" />
       <Button text="Twitter" href="https://x.com/" />
       <Button text="Instagram" href="https://www.instagram.com/" />
-    </article>
+    </section>
   );
 }
